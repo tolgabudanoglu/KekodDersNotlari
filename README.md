@@ -1,4 +1,4 @@
 # Kekod Ders Notları
 
 ## Hafta 1
-[git nedir ve git komutları](notlar/git.txt)
+-Git nedir ve git komutları [ders notları](notlar/git.txt)
