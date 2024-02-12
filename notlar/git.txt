@@ -1,0 +1,28 @@
+Klasöre gitmek için cd klasörü kopyala
+Git config --global color.ui auto reklendirme
+Git init = klasaörü tanımlama
+Git init --bare = working tree olmadan çıplak tanımlama
+Git init --template = benzer template yapma
+Git clone = repoyu klonlama
+Özel branch klone = Git clone -- branch(branch ismi)
+Sadece branchin geçmişi için = Git clone  --single- branch(branch ismi)
+Git status = reponun durumu 
+Silinenler kırmızı eklenenler yeşil modified olanlar mavi
+Git add  --all =tüm dosyaları stage area ya atar
+Git reset = stage area ya alınan dosyalrı çıkartır
+Git diff = dosyalar üzerindeki farkı gösterir  
+Git diff  --staged = stage area da ki değişiklikler
+Git diff --stat = sayı olarak verir değişiklikleri
+Git commit  -m "(mesaj) " =  dosyaları commitler stage area
+Atomic commit bak 
+Git log = yapılan değişiklikleri gösterir
+Head = son atılan commit  veya o an ki branch
+Git push = commitleri uzak sunucuya atar
+Git push -u(origin yerine farklı bir yere)
+Git push --tags = relase yapılan dönemler
+Git fetch = uzak sunucudaki değişiklikleri localde haberdar olması değişikliği almıyor 
+Git pull = commitleri alıyor localine
+Git conflict = kodlar arasındaki farklar
+Git branch (feature/bracnh ismi)  = yeni brach açar
+Git checkout (branch ismi) = bracha geçer
+Git checkout -b (brach ismi) = bracnhi oluşturur 
