@@ -1,7 +1,7 @@
 # Kekod Ders Notları
 
 ## Mülakat soruları
-[ders notları](mulakatSorulari/mulakatSorulari.txt)
+[notlar](mulakatSorulari/mulakatSorulari.txt)
 
 
 ## Hafta 1
@@ -9,8 +9,8 @@
 
 
 ## Hafta 2
--Ders 1 [ders notları](notlar/hafta2/ders1.txt)
-main args fonksiyonu
-Değişken oluşturma ve type inference (tip çıkarımı)
-val ve var farkı
+### Ders 1 [ders notları](notlar/hafta2/ders1.txt)
+- main args fonksiyonu
+- Değişken oluşturma ve type inference (tip çıkarımı)
+- val ve var farkı
 
