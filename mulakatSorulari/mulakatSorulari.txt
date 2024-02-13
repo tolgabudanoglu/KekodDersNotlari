@@ -1,0 +1,8 @@
+- Atomic commit kullan
+
+-Val mı daha maliyetli yoksa var mı daha maliyetli ?
+performans farkı yok denecek kadar az ama val değişkenler daha maliyetlidir. Çünkü şart cümlesi var değişken değişmesin diye. Günlük hayatta val daha performanslı. Çünkü multi thread işlem yaptığımız için. Çünkü threadler değişkenin değerini değişmeyeceğini bildiği için kontrol etmiyor. 
+
+
+- Var keywordunu kullanarak val değişken nasıl yapabiliriz ?
+her değişkende set ve get fonksiyonları var. Eğer değişkenin altına private set şeklinde seti private yaparsak val a dönüşür. Sınıf içinde ama.
