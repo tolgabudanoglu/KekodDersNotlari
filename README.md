@@ -1,7 +1,7 @@
 # Kekod Ders Notları
 
 ## Mülakat soruları
-[ders notları](mulakatSorulari/mulakatSorulari.txt)
+[notlar](mulakatSorulari/mulakatSorulari.txt)
 
 
 ## Hafta 1
