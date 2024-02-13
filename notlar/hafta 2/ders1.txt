@@ -1,0 +1,19 @@
+- Arg = parametre veriyorsun onları dönüyorsun.  Edit configuration da program argument içine yazdığın değerler
+	
+Reformat code  = ctrl+shift +alt +l
+	
+Kodu command line alma = 
+	
+Değişkenler = val name:String = "tolga" örnek
+	
+Val = değişken ataması yapıldıktan sonra değer bir daha değişmez value
+Var = sonradan değeri değiştirebiliriz variable
+type inference = değişken tipini kendi anlaması = tip çıkarımı = bir değişkene eşittir ile verdiysek ide nin değişken tipini kendi çıkarması
+	
+Val mı daha maliyetli var mı daha maliyetli ? =  performans farkı yok denecek kadar az ama val değişkenler daha maliyetlidir. Çünkü şart cümlesi var değişken değişmesin diye. Günlük hayatta val daha performanslı. Çünkü multi thread işlem yaptığımız için. Çünkü threadler değişkenin değerini değişmeyeceğini bildiği için kontrol etmiyor. 
+	
+İde de shift + shift bas show kotlin bytecode decompile e bas kotlin kodunu java koduna çevirir
+	
+Var keywordunu kullanarak val değişken nasıl yapabiliriz ?
+	
+-her değişkende set ve get fonksiyonları var. Eğer değişkenin altına private set şeklinde seti private yaparsak val a dönüşür. Sınıf içinde ama.
