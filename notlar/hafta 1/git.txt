@@ -26,3 +26,4 @@ Git conflict = kodlar arasındaki farklar
 Git branch (feature/bracnh ismi)  = yeni brach açar
 Git checkout (branch ismi) = bracha geçer
 Git checkout -b (brach ismi) = bracnhi oluşturur 
+Gitignore = gitin takip etmesini istemediğimiz dosyalar gitignore.io sitesine git oraya kullanılan tüm dilleri yaz onun verdiği gitignore kodlarını projedeki tüm gitignore dosylarına yapıştır daha sonra bir kere çalıştır sonra commit at.  
