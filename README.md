@@ -9,8 +9,8 @@
 
 
 ## Hafta 2
--Ders 1 [ders notları](notlar/hafta2/ders1.txt)
-main args fonksiyonu
-Değişken oluşturma ve type inference (tip çıkarımı)
-val ve var farkı
+### Ders 1 [ders notları](notlar/hafta2/ders1.txt)
+- main args fonksiyonu
+- Değişken oluşturma ve type inference (tip çıkarımı)
+- val ve var farkı
 
