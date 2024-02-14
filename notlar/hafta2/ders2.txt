@@ -1,0 +1,22 @@
+Basic types
+
+Kotlinde her şey bir nesnedir. 
+
+
+
+Val immutable değildir read only dir. Çünkü return ile dönen değerler değişebilir. 
+
+nullables
+Bir değişkene null atamsı yapabilmek için değişken tipinin sonuna  ? Koymalıyız
+ değişkenin tipini vermeden null vermek için kotlin otomatik olarak nothing? Olarak işaretler.
+
+Nullable bir değişkeni kullanabilmek için !! Veya ?. Nokta kullanmalıyız.
+?. = bu değer nullable olabilir ama sonradan değer atadıysak çalışır. Değer null ise çalışmaz.
+!! = ideye null olmayacağı garanti ediyoruz. Null gelirse app crash verir.Kritik işlerde genellikle
+
+
+
+
+Tip çıkarımında int değer aralığında ise int olarak verir. Değer aralığından fazla ise long verir.
+
+Bir değişken nullable ise class halidir. Ama değer -128 ile 127 arasıdna ise hala primitive int olarak davranırlar.3 eşittire ile aynı çıkar
