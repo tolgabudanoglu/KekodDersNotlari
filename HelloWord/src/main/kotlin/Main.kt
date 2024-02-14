@@ -21,7 +21,7 @@ fun main(args: Array<String>) {
 }
 class A(){
 
-    //val neden immutable değilde read only açıklaması
+    //
     var age2 = 25
     var age3 = 4
     val age4:Int

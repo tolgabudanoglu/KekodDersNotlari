@@ -6,3 +6,23 @@ performans farkı yok denecek kadar az ama val değişkenler daha maliyetlidir. 
 
 - Var keywordunu kullanarak val değişken nasıl yapabiliriz ?
 her değişkende set ve get fonksiyonları var. Eğer değişkenin altına private set şeklinde seti private yaparsak val a dönüşür. Sınıf içinde ama.
+
+-Val number = null bu değişken hangi tiptir?
+Nothing? tipidir.
+
+- Mülakatlarda tipleri değer aralığına göre kullan.
+
+-kotlinde her şey bir nesne ise biz primitive tiplere sahip değil miyiz ?
+Özel optimazyonlar ile bytecode çevrilirken primiteve olacak şekilde çevriliyorlar.
+
+- === üç eşittir neyi kontrol ettirir?
+ 2 eşittir == içlerindeki değeri kontrol ettirir. 3  eşittir === memory refreranslarını kontrol ettirir.
+
+- bir primitive değişken nullable yapılıp 3 eşittir ile kontreol edilirse sonuç ne olur?
+Değişkenin değeri -128 ile 127 arasında ise true değerini verir çünkü byte olarak alıyor. Değer aralığından büyükse false sonucunu verir.
+
+- İki tane sayısal değeri matematiksel işleme sokarsak çıkan seonuç ne olur? (long int mesela )
+Büyük olan sayının tipinde alır.long alır
+
+-iki tane tipi aynı olan max sayıyı çarparsak ne olur?(ikisi de int in max değeri)
+Sonuçta tip dönüşümü yapmıyorsak hata verir. overflow
