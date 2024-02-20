@@ -1,0 +1,34 @@
+Primitive type için stackte 2 tane alan ayrılıyor değişkenin kendisi ve ifade ettiği değer 
+Stack heap den daha hızlı çalışır 
+Referan tipli değikenbin ismi stackete değeri heapte
+
+
+Val result=Byte.MAX_VALUE+Byte.MAX_VALUE result un değeri ne olur?
+-int olur çünkü ide int değer aralığında ise int alır
+
+Char daki değeri int e çevirirsek asscii tablasondaki dğerini alarıız.
+Char = unicode tanımlarken fazla karakter yazılabilir. Val blackheart = '\u2665'
+
+
+|| ve && operatörleri lazy çalışma meknaizmasına sahiptir. Bu ne demek ?
+
+	- || operatörünün solu true ise sağdaki değere bakmadan true kabul eder.
+	-  && operatörünün solu false ise sağa bakmadan false kabul eder.
+
+
+
+"kekod awesome " da kaç tane tekrar eden char vardır.?
+16
+
+Stringler immutable dir. Değiştirmek için yeni bir string object i döner.  Garbage collector kullanılmayan value leri siler.
+
+Stiringler yaklaşuık oalrak her kaakret başına 2 byte yer kaplar.
+
+Val numbersValue:String="Value"+(4+2+8)//value14
+val numbersValue2:String = (4+2+8) "Value\" + // hata verir
+
+
+Yıldızlardan çam ağaci çiz ?
+Raw string ile üç tırnak ile çizebiliriz diyebilriz.
+
+vararg = belirsiz sayıda argüman, bir nevi list of args
