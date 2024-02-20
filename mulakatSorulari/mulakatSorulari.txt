@@ -26,3 +26,21 @@ Büyük olan sayının tipinde alır.long alır
 
 -iki tane tipi aynı olan max sayıyı çarparsak ne olur?(ikisi de int in max değeri)
 Sonuçta tip dönüşümü yapmıyorsak hata verir. overflow
+
+|| ve && operatörleri lazy çalışma meknaizmasına sahiptir. Bu ne demek ?
+
+- || operatörünün solu true ise sağdaki değere bakmadan true kabul eder.
+-&& operatörünün solu false ise sağa bakmadan false kabul eder.
+
+
+Val result=Byte.MAX_VALUE+Byte.MAX_VALUE result un değeri ne olur?
+-int olur çünkü ide int değer aralığında ise int alır
+
+
+Val numbersValue:String="Value"+(4+2+8)//value14
+val numbersValue2:String = (4+2+8) "Value\" + // hata verir
+
+
+
+Yıldızlardan çam ağaci çiz ?
+Raw string ile üç tırnak ile çizebiliriz diyebilriz.
