@@ -1,0 +1,45 @@
+--------------------------------------------------------------------Array
+
+ARRAYLER SABİT BÜYÜKLÜKLERDİR. EKLME CE ÇIKARMA İÇİN MEMORY DE YENİ yeni bir array oluşturur.
+
+.toTypedAarray() fonksiyonu ile primitive  arrayi object  arraya çevirir.
+
+.toCharArray()
+ gibi fonksiyonlar object arrayi primitive arraye dönüştürür.
+
+Val ile tanımlşanmış arrayin indexin değerini değiştirebiliriz.
+
+Arrayler mutable dir.
+
+Any tip array tüm tipleri alır.
+
+Arrayler invariant tır. Üst class daki arrarya atanamaz. 
+
+Empty array size 0
+
+Vararg kelimesi ile istediğimiz sayıda parametre alabilriz.
+Eğer vararga denk gelecek şekilde bir arrary kullanmak istişyorsak "spread" "*" opertaoru kullanırız.
+
+Spread operatoru verdiğiniz arrayin elemanlarının her birini bir vairable olacak şekilde paramatre olarak passlar.
+
+== ile arraylerin referans object lerini kontrol ederiz.
+Verileri karşılasştırmak için tek boyutlu arraylerde  contentEquals kullanırız.
+Verileri karşılasştırmak için çok boyutlu arraylerde  contentDeepEquals kullanırız.
+
+https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/ fonksiyon listesi arraylerde
+
+--------------------------------------------------------------------Range
+
+Sonlu sayılı liste oluşturmaya yarar.
+
+Küçükten büyüğe liste oluşturmak için ;
+".."opertaoru ya da "rangeTo()"
+"..<" operatorunu ya da "rangeUntil()"
+Fonksiyonu kullanılır.
+
+
+Büyükten küçük için down to fonksiyonu
+
+Belli sayıda artırım için step fonksiyonu
+
+CharRange, IntRange , LongRange isimlerinde özel rangeler var bunlara progression adı verilir.
