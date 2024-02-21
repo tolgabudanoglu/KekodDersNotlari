@@ -23,7 +23,7 @@
 - Tip dönüşümü (type conversion)
 
 
-## Hafta 3 [kodlar](KotlinLessons/src/main/kotlin/Arrays.kt)(KotlinLessons/src/main/kotlin/Range.kt)
+## Hafta 3 [array](KotlinLessons/src/main/kotlin/Arrays.kt) [range](KotlinLessons/src/main/kotlin/Range.kt)
 ### Ders 1 [ders notları](notlar/hafta3/ders1.txt) 
 - Char
 - Mantık operatörleri
