@@ -1,3 +1,5 @@
+package basic
+
 fun main() {
 
     val studentNumbers = arrayOf(13,15,456,465,456)

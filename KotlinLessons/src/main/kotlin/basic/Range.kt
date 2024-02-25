@@ -1,4 +1,4 @@
-
+package basic
 @OptIn(ExperimentalStdlibApi::class)
 fun main() {
 
