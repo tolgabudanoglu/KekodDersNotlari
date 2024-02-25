@@ -21,3 +21,16 @@
 - Numbers veri tipleri
 - Sayısal veri tiplerinde type inference
 - Tip dönüşümü (type conversion)
+
+
+## Hafta 3 [array](KotlinLessons/src/main/kotlin/Arrays.kt) [range](KotlinLessons/src/main/kotlin/Range.kt)
+### Ders 1 [ders notları](notlar/hafta3/ders1.txt) 
+- Char
+- Mantık operatörleri
+- Boolean
+- String
+
+### Ders 2 [ders notları](notlar/hafta3/ders2.txt)  
+-Array
+-Range
+
