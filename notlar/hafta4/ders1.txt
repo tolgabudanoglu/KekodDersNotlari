@@ -1,0 +1,10 @@
+operator
+
+Operatorları değerler nullable ise kullanamayız. O zaman opretator fonksiyonlşarını kullnaırız.
+
+
+Opertator overloading
+
+Opertaorun anlamını değiştirmeden farklı özellikler için kullanılır.
+
+Code smells = kodun tekrar etmesi tekrar eden yerlere bak
