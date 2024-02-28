@@ -1,0 +1,24 @@
+Geri dönüş değeri yazmıyorsa unit tir . Unit = herhangi bir tipte dönüş beklemiyor.
+
+Unit nothing farkına bak 
+unit işlemin olduğu fakat değerin geri dönüşünun olmadığı, nothingin de hata durumlarında veya değişken değeri atanmamissa kullanılıyordu sanırım, 
+
+
+Fonksiyonlar first class citizen dir. Yani değişkenlere değer olarak atanabilir, başka fonksiyonlara parametre verlirse , fonsiyonun geri dönüş değeri olabilir.
+
+Fonksiyonlarda default argument  ne?
+Opsiyonel parametre.  Fonksiyon overload yapmamızı sağlıyor.
+
+Fonksiyonlarda name argument  ne?
+Fonksiyonun parametreleri opsiyonel oalcaksa.
+
+Fonksiyon overload nedir ?
+Bir fonksiyonun paremtre sayıları ya da tipleri değiştirerek aynı fonksiyondan birden fazla oluşturmak.
+
+Fonksiyonun default değeri varsa arkaplanda iki tane fonk oluşuyor. Bir tanesi parametre alan hali diğeri de parametre almayan hali. Buna fonksiyon overload deniyor.
+
+Parametre sayısı belli değilse  vararg kullanılır.
+
+Vararg tek ya da son parametre olarak yazılırsa javadaki "String…" gibi kod derlenir.
+Vararg ortada ya da başta ise arraye dönüşür.
+Bu yüzden performans farkı oluşur.

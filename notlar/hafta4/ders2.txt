@@ -1,0 +1,12 @@
+for
+
+Value in list -> value değerlerini alırız 
+İndex in list.indices index değerlerini alırız
+(index,value) in list.withIndex()  index,calue değeleridnini alırız  destructuringdeclarations
+
+İç içe döngülerde break ve coniunede üsteki for döngüsüne dönebilmek için returnlabe@ kullanılır.
+
+
+For döngüsü varken neden while da var ? 
+
+For - if kullanımlarında while döngüsünü kullanırız
