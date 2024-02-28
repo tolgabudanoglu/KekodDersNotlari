@@ -1,7 +1,8 @@
 Geri dönüş değeri yazmıyorsa unit tir . Unit = herhangi bir tipte dönüş beklemiyor.
 
-Unit nothing farkına bak 
-unit işlemin olduğu fakat değerin geri dönüşünun olmadığı, nothingin de hata durumlarında veya değişken değeri atanmamissa kullanılıyordu sanırım, 
+Unit nothing farkı nedir ? 
+ unit işlemin olduğu fakat değerin geri dönüşünun olmadığı, nothingin de hata durumlarında veya değişken değeri atanmamissa kullanılıyordu sanırım, 
+
 
 
 Fonksiyonlar first class citizen dir. Yani değişkenlere değer olarak atanabilir, başka fonksiyonlara parametre verlirse , fonsiyonun geri dönüş değeri olabilir.
