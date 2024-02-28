@@ -44,3 +44,31 @@ val numbersValue2:String = (4+2+8) "Value\" + // hata verir
 
 Yıldızlardan çam ağaci çiz ?
 Raw string ile üç tırnak ile çizebiliriz diyebilriz.
+
+
+For döngüsü varken neden while da var ? 
+
+-For - if kullanımlarında while döngüsünü kullanırız.
+
+
+Fonksiyonlarda default argument  ne?
+-Opsiyonel parametre.  Fonksiyon overload yapmamızı sağlıyor.
+
+Fonksiyonlarda name argument  ne?
+-Fonksiyonun parametreleri opsiyonel oalcaksa.
+
+Fonksiyon overload nedir ?
+-Bir fonksiyonun paremtre sayıları ya da tipleri değiştirerek aynı fonksiyondan birden fazla oluşturmak.
+
+
+Unit nothing farkı nedir?
+-Unit:
+Unit Kotlin'de bir türdür ve bir işlevin (fonksiyonun) dönüş türü olarak kullanılır.
+Genellikle bir işlevin bir şey döndürmediğini belirtmek için kullanılır. Yani, bir işlevin yan etkileri olabilir, ancak doğrudan bir değer döndürmez.
+Kotlin'de void türü gibi düşünülebilir, ancak Unit bir nesnedir ve void'dan farklı olarak bir değeri vardır (Unit nesnesi).
+-Nothing:
+Nothing da bir türdür, ancak kullanımı Unit ile benzer değildir. Nothing, işlevin normal bir şekilde tamamlanmasının mümkün olmadığını ifade eder.
+Genellikle bir işlevin sonsuz bir döngü içinde olduğu, bir istisnanın fırlatıldığı veya işlemin hiç tamamlanmadığı durumlar için kullanılır.
+Nothing türünde bir değeri ifade eden bir ifade, herhangi bir türün alt kümesidir (herhangi bir türün alt tipi olabilir).
+
+
