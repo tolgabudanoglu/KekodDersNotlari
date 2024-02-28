@@ -31,19 +31,19 @@
 - String
 
 ### Ders 2 [ders notları](notlar/hafta3/ders2.txt)  
--Array
--Range
+- Array
+- Range
 
 
 ## Hafta 4 
 ### Ders 1 [ders notları](notlar/hafta4/ders1.txt) [kodlar](KotlinLessons/src/main/kotlin/controlflow)
--Operatörler 
--if else
--when
+- Operatörler 
+- if else
+- when
 
 ### Ders 2 [for](notlar/hafta4/ders2.txt) [fonksiyonlar](notlar/hafta4/fonksiyonlar.txt)
--for  [loop](KotlinLessons/src/main/kotlin/loop) 
--while
--fonksiyonlar [fonksiyonlar](KotlinLessons/src/main/kotlin/Functions)
+- for  [loop kodları](KotlinLessons/src/main/kotlin/loop) 
+- while
+- fonksiyonlar [fonksiyon kodları](KotlinLessons/src/main/kotlin/Functions)
 
 
