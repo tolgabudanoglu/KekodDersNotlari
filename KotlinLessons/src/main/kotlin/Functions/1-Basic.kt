@@ -44,6 +44,7 @@ fun takeSquare3(number:Int = 4,number2:Int,number3:Int = 6,number4:Int):Int{
 //Vararg tek ya da son parametre olarak yazılırsa javadaki "String…" gibi kod derlenir.
 //Vararg ortada ya da başta ise arraye dönüşür.
 //Bu yüzden performans farkı oluşur.
+//aynı fonksiyon içinde birden fazla vararg tanımına izin verilmez.
 fun getUSserInfo(vararg userInfo:String,key:Int){
 
 }
@@ -52,4 +53,15 @@ fun getUSserInfo2(vararg userInfo:String){
 }
 fun getUSserInfo(key:Int,number:Int,vararg userInfo:String){
 
+}
+
+
+// bir fonksiyona  = koyularak da return edeceği değer yazılabilir.
+
+val userList = arrayOfNulls<String>(5)
+
+fun getListCount(): Int = userList.size
+fun getListCount3() = userList.size
+fun getListCount2():Int {
+    return userList.size
 }
