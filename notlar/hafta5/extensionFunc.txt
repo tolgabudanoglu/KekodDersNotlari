@@ -1,0 +1,12 @@
+Değişiklik yapamadığımız (read only) sınıflara ya da değişlklik yapmak istemediğimiz sınıfların içerisine yazmadan fonksiyon tanımlyabailiriz.. 
+
+Receiver = exrension yazacağımız sınıf
+
+Top level func ( bir classın içinde değilse )  olarak tanımladığımız zaman bu fonksiyonu istediğimiz her yerde kullanabiliriz. (static fonksiyonlar gibi)
+
+
+Bir variable i nasıl extend edebiliriz ? 
+
+-extension property yazabiliriz. Bunun sebebi propertylerin get() ve sert() methodlarıdan oluşmasından dolayı.
+Bu extension propertylerin içinde field tanımlanamaz.
+Dolayısıyla gerçek anlamda extension variable yapılamaz.
