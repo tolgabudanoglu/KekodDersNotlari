@@ -1,0 +1,5 @@
+Bir fonksiyon herhangi bir sınıfın içerisinde değilde bir dosyanın içerisinde boşlukta tanuımlanıyorsa top level fonksiyon denir.
+
+Fonksiyon içinde fonksiyon tanımı yapılır. Local fonksiyon denir.
+Sebebi ise yazılan fonksiyon kendi sınıfından dahi çağrılmasını istemeyebiliriz.
+Reflection da dahil dışarıdan hiçbir şekilde erişilemez.
