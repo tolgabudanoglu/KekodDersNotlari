@@ -1,8 +1,12 @@
 package Functions
 
+import java.awt.Shape
+
 fun main() {
 
     calculateAtomPhysic()
+
+
 
     //scoope fonksiyon main fonksiyonu içinde başka fonksiyon tanımlama
     fun calculateAtomPhysic2(){
