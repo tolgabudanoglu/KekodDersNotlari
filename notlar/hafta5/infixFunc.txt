@@ -1,0 +1,10 @@
+Bir fonksiyonun infix olabilmesi için 5 şart vardır :
+1 infix keywordu
+2 fonksiyon üye fonksion olmalıdır. (sınıfa ait olmalı)
+3 ya da extension fonk olmalıdır.
+4.sadece bir parametre almalıdır(vararg olamaz )
+5 parametresi default değer alamaz
+
+Matematik operatorlerin tip dönüşümlerinin range kullanımının infix metodlara işlem önceliği vardır.
+
+ infix methodalrın da mantık operatorlerine önceliği vardır.
