@@ -1,0 +1,3 @@
+Bir fonksiyonun içine parametre olarak bir fonksiyon verebiliyorsak ya da bir fonksiyonun geri dönüş tipini fonk olarak alabiliyorsak higher order fonk denir.
+
+Geriye dönük bir haberleşme için ya da bir fonk call edildiği yere bilgi taşımak isteniyorsa bunlar kullanılır.
