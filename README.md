@@ -53,7 +53,7 @@
 - extension func [extension](notlar/hafta5/extensionFunc.txt)
 - scoope func [scope](notlar/hafta5/scoopeFunc.txt)
 
-### Ders 2 [kodalr](KotlinLessons/src/main/kotlin/Functions)
--Higher Order Func [notlar](notlar/hafta5/higherOrderFunc.txt)
+### Ders 2 [kodlar](KotlinLessons/src/main/kotlin/Functions)
+- Higher Order Func [notlar](notlar/hafta5/higherOrderFunc.txt)
 
 
