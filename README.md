@@ -47,3 +47,13 @@
 - fonksiyonlar [fonksiyon kodları](KotlinLessons/src/main/kotlin/Functions)
 
 
+## Hafta 5 
+### Ders 1 [kodlar](KotlinLessons/src/main/kotlin/Functions)
+- Infix func [infix](notlar/hafta5/infixFunc.txt)
+- extension func [extension](notlar/hafta5/extensionFunc.txt)
+- scoope func [scope](notlar/hafta5/scoopeFunc.txt)
+
+### Ders 2 [kodlar](KotlinLessons/src/main/kotlin/Functions)
+- Higher Order Func [notlar](notlar/hafta5/higherOrderFunc.txt)
+
+
