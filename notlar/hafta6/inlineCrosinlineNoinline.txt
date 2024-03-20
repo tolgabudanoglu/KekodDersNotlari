@@ -1,0 +1,6 @@
+İnline = nesne oluşturmadan main içindeki fonksiyon bodysi sanki fonksiyonun içindeymiş gibi çalışıyor. Performans artışına neden olur. Ama  eğer işlem çok ise veya 1 kere çağırılıyorsa  build time yavaşlar  kısmı sıkınıtlı olur.
+
+Noinline = parametre sayısı birden fazla ise kullanılır. High oreder fonksiyonun parametresi başka bir higher order fonk içindeyse inline yapılamaz nıinline kullanmalıyız.
+
+
+Non locking return e inline fonksiyonda izin verilir. Crossinline yaparak non locking return olmayacağına garanti ediyoruz..
