@@ -1,0 +1,14 @@
+init bloğu primary constructorun body si
+
+Kotlinde tüm değişkenler default olarak public tutulur.  Çünkü arkaplanda değişkeni private oalrak tutulur. Çünkü kotlinde değişken değil property (get ve set fonksiyonu ) tanımlıyoruz. Değiştiremeceğimiz şekilde encapsulation vardır. 
+Private yaptığmızda o değişkenin get set fonksiyonlarını private yapıyoruz. Değişkenin kendisi zaten private.
+
+
+İnternal = başka modül erişemez.
+
+Protected = cont ve fonksiyonlarda yazılır.  
+
+
+
+
+Fonksiyonlar içinde tanımlanan değişkenler field olarak tanımlanıyor.
