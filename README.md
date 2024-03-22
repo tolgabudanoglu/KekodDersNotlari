@@ -57,3 +57,15 @@
 - Higher Order Func [notlar](notlar/hafta5/higherOrderFunc.txt)
 
 
+## Hafta 6
+### Ders 1 [kodlar](KotlinLessons/src/main/kotlin/Functions/InlineNoInlineCroosInline.kt)
+- inline  [notlar](notlar/hafta6/inlineCrosinlineNoinline.txt)
+- noinline
+- crossinline
+
+### Ders 2  [kodlar](KotlinLessons/src/main/kotlin/classes/Turtle.kt)
+- class basic  [notlar](notlar/hafta6/basic class.txt)
+- erişim belirteçleri
+
+
+
