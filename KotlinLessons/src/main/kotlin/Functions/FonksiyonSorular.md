@@ -22,4 +22,8 @@ Geriye dönük bir haberleşme için ya da bir fonk call edildiği yere bilgi ta
   4.sadece bir parametre almalıdır(vararg olamaz )
   5 parametresi default değer alamaz
 
-7. 
+7. Bir Kotlin fonksiyonunun bir değer döndürmediği durumlarda kullanılacak bir dönüş türü nedir?
+- Bir Kotlin fonksiyonunun bir değer döndürmediği durumlarda, Unit dönüş türü kullanılır. Unit, Kotlin'de özel bir türdür ve Java'daki void türüne karşılık gelir. Unit, aslında bir değer döndürülmediğini belirtmek için kullanılır ve fonksiyon çağrısının sonucu olarak kullanılmaz.
+
+8. Kotlin'de bir fonksiyonun ne zaman "inline" olarak tanımlanması gerektiğini açıklayabilir misiniz?
+- Bu, fonksiyon çağrılarının art arda yazılmasından kaynaklanan performans kaybını azaltabilir ve kodun çalışma zamanındaki performansını artırabilir.
