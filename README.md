@@ -64,7 +64,7 @@
 - crossinline
 
 ### Ders 2  [kodlar](KotlinLessons/src/main/kotlin/classes/Turtle.kt)
-- class basic  [notlar](notlar/hafta6/basic class.txt)
+- class basic  [notlar](notlar/hafta6/basicclass.txt)
 - erişim belirteçleri
 
 
