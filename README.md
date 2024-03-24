@@ -1,7 +1,7 @@
 # Kekod Ders Notları
 
 ## Mülakat soruları
-[notlar](mulakatSorulari/mulakatSorulari.txt)
+[mülakat soruları](mulakatSorulari/mulakatSorulari.txt)
 
 
 ## Hafta 1
@@ -64,7 +64,7 @@
 - crossinline
 
 ### Ders 2  [kodlar](KotlinLessons/src/main/kotlin/classes/Turtle.kt)
-- class basic  [notlar](notlar/hafta6/basicclass.txt)
+- class basic  [notlar](notlar/hafta6/classBasic.txt)
 - erişim belirteçleri
 
 
