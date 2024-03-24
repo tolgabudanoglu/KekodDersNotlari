@@ -1,0 +1,9 @@
+Yazabilidğin fonk değişkenleri private da tut daha sonra hangi özelliklerini dışarıya açmak istiyorsan onların fonksiyonlarını yaz. 
+
+Kullanma nedenimiz = Tanımladığımız class dışında kullanılması gerekmiyorsa gereksiz karmaşıklık yaratmamak için
+
+Kotlinde oto encapsulation var. Çünkü arka planda field hep private biz sadece get ve set fonksiyonlarını ayarlıyoruz. Çünkü değişkenelr field değil property.
+
+Kt Lint bak
+
+Nebula da bak 
