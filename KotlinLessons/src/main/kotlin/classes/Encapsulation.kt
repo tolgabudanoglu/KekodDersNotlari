@@ -6,7 +6,7 @@ class Encapsulation {
     private val surname:String = "budanoğlu"
     var secondSurname:String = "budanoğlu"
 
-    fun getFullName():{
+    fun getFullName():String{
         return "$name $surname"
     }
 
