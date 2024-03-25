@@ -72,3 +72,10 @@ Genellikle bir işlevin sonsuz bir döngü içinde olduğu, bir istisnanın fır
 Nothing türünde bir değeri ifade eden bir ifade, herhangi bir türün alt kümesidir (herhangi bir türün alt tipi olabilir).
 
 
+Final keywordu private keywordu public keywordu open keywordu nedir ?
+- Open ve final erişim düzenleyicidir. Open miras laınabilen final  sınıflarda miras alınamaz değişkenler override edilemez anlamında kullanırlır.  kotlinde sınıflar ve değişkenler otomatik dinal tanımlar.
+
+
+ 
+
+
