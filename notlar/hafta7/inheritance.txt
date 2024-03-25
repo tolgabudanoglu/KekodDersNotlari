@@ -5,3 +5,6 @@ Kotlinde class ların önünde otomatik olarark final terimi yazar. Böylelikle 
 
 -Final keywordu private keywordu public keywordu open keywordu nedir ?
  Open ve final erişim düzenleyicidir. Open miras laınabilen final  sınıflarda miras alınamaz değişkenler override edilemez anlamında kullanırlır.  kotlinde sınıflar ve   değişkenler otomatik dinal tanımlar. 
+
+
+polimorfizm =bir nesnenin farklı sınıfların üyelerini (metodları, özellikleri) aynı şekilde kullanabilmesini sağlayan bir özelliktir. Bu, aynı metodu çağırmanın, farklı nesne türlerinde farklı davranışlara neden olabileceği anlamına gelir.  
