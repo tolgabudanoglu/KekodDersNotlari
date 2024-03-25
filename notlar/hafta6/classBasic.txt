@@ -1,4 +1,4 @@
-init bloğu primary constructorun body si
+init bloğu primary constructorun body si val veya var yoksa init bloğu dışında erişilemez
 
 Kotlinde tüm değişkenler default olarak public tutulur.  Çünkü arkaplanda değişkeni private oalrak tutulur. Çünkü kotlinde değişken değil property (get ve set fonksiyonu ) tanımlıyoruz. Değiştiremeceğimiz şekilde encapsulation vardır. 
 Private yaptığmızda o değişkenin get set fonksiyonlarını private yapıyoruz. Değişkenin kendisi zaten private.

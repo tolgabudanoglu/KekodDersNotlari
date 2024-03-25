@@ -1,0 +1,7 @@
+Classların aynı özellikleri varsa base bir sınıf yapıp diğer classaları base sınıftan miras alma.
+
+
+Kotlinde class ların önünde otomatik olarark final terimi yazar. Böylelikle miras alınıp alınamadaığını gösterir. Miras alınabilen bir sınıf haline getirmek için önüne open terimini yazmalıyız.
+
+-Final keywordu private keywordu public keywordu open keywordu nedir ?
+ Open ve final erişim düzenleyicidir. Open miras laınabilen final  sınıflarda miras alınamaz değişkenler override edilemez anlamında kullanırlır.  kotlinde sınıflar ve   değişkenler otomatik dinal tanımlar. 
