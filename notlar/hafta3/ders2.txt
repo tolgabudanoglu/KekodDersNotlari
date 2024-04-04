@@ -2,12 +2,12 @@
 
 ARRAYLER SABİT BÜYÜKLÜKLERDİR. EKLME CE ÇIKARMA İÇİN MEMORY DE YENİ yeni bir array oluşturur.
 
-.toTypedAarray() fonksiyonu ile primitive  arrayi object  arraya çevirir.
+.toTypedAarray() fonksiyonu ile Bu fonksiyon, bir koleksiyonun belirli bir türden bir diziye dönüştürülmesini sağlar.
 
 .toCharArray()
  gibi fonksiyonlar object arrayi primitive arraye dönüştürür.
 
-Val ile tanımlşanmış arrayin indexin değerini değiştirebiliriz.
+Val ile tanımlanmış arrayin indexin değerini değiştirebiliriz.
 
 Arrayler mutable dir.
 

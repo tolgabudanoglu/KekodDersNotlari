@@ -1,5 +1,4 @@
 Basic types
-
 Kotlinde her şey bir nesnedir. 
 
 
@@ -8,7 +7,8 @@ Val immutable değildir read only dir. Çünkü return ile dönen değerler değ
 
 nullables
 Bir değişkene null atamsı yapabilmek için değişken tipinin sonuna  ? Koymalıyız
- değişkenin tipini vermeden null vermek için kotlin otomatik olarak nothing? Olarak işaretler.
+
+Değişkenin tipini vermeden null vermek için kotlin otomatik olarak nothing? Olarak işaretler. ( var aa = null )
 
 Nullable bir değişkeni kullanabilmek için !! Veya ?. Nokta kullanmalıyız.
 ?. = bu değer nullable olabilir ama sonradan değer atadıysak çalışır. Değer null ise çalışmaz.
