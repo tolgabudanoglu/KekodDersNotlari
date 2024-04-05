@@ -42,6 +42,16 @@ fun main() {
     val array6 = intArrayOf(1, 2, 3)
 
     println(array5.contentEquals(array6)) // true
+
+
+    val array8 = intArrayOf(1,2,3)
+    val array9 = intArrayOf(1,2,3)
+
+    if (array8 == array9){
+        println(true)
+    }else{
+        println(false) // false
+    }
 }
 
 fun exampleFunction(vararg numbers: Int) {

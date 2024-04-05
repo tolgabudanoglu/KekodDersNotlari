@@ -17,6 +17,10 @@ fun main() {
     number.log("long number")
     number2.log("int number")
 
+
+    val myString = "Hello"
+    println(myString.customLength) // Çıktı: 10
+
 }
 
 //normal fonksiyon
@@ -37,6 +41,10 @@ fun log2(number : Number){
 infix fun Number.log(emptyParam:String){
         println(emptyParam+this)
 }
+
+//extension property
+val String.customLength: Int
+    get() = this.length * 2
 
 
 //extension property aslında alttaki extend fonksiyonlarla aynı
