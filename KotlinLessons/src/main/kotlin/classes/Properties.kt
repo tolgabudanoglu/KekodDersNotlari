@@ -16,5 +16,5 @@ var setterWithAnnotation: Any? = null
      set // annotate the setter with Inject
 
 // backing fieldi yok çünkü değeri yok
-val isEmpty: Boolean
-    get() = this.size == 0
+/*val isEmpty: Boolean
+    get() = this.size == 0*/
