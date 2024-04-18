@@ -15,14 +15,14 @@ abstract class Human (val name:String){
     abstract fun display()
 
     //override edilemez
-    fun sendEvent(){
+     fun sendEvent(){
 
     }
 
 }
 
-class Turk(override val surName: String):Human("turk"){
-    override val middleName: String = "adsfad"
+abstract class Turk(override val surName: String):Human("turk"){
+    final override val middleName: String = "adsfad"
     override fun display() {
         TODO("Not yet implemented")
     }
@@ -33,6 +33,10 @@ class Turk(override val surName: String):Human("turk"){
     override fun getEvent() {
         super.getEvent()
     }
+}
+class ChildTurk(surName: String):Turk(surName){
+   /* override val middleName: String
+        get() = super.middleName*/
 }
 
 fun main() {
