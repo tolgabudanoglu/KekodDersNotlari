@@ -3,8 +3,10 @@ Classların aynı özellikleri varsa base bir sınıf yapıp diğer classaları 
 
 Kotlinde class ların önünde otomatik olarark final terimi yazar. Böylelikle miras alınıp alınamadaığını gösterir. Miras alınabilen bir sınıf haline getirmek için önüne open terimini yazmalıyız.
 
--Final keywordu private keywordu public keywordu open keywordu nedir ?
- Open ve final erişim düzenleyicidir. Open miras laınabilen final  sınıflarda miras alınamaz değişkenler override edilemez anlamında kullanırlır.  kotlinde sınıflar ve   değişkenler otomatik dinal tanımlar. 
+	Final keywordu private keywordu public keywordu open keywordu nedir ?
+	- Open ve final erişim düzenleyicidir. Open miras alınabilen final  sınıflarda miras alınamaz değişkenler override edilemez anlamında kullanırlır.  kotlinde sınıflar ve değişkenler otomatik final tanımlar. 
+	- Bir sınıf final olarak işaretlenirse, bu sınıf başka bir sınıf tarafından miras alınamaz. Bir fonksiyon veya değişken final olarak işaretlenirse, bu fonksiyon veya değişken başka bir sınıf tarafından override edilemez veya değiştirilemez.
+	- open: open anahtar kelimesi bir sınıfın veya bir fonksiyonun miras alınabilir olduğunu belirtmek için kullanılır. Bir sınıf veya fonksiyon open olarak işaretlenirse, başka bir sınıf tarafından bu sınıfı miras alabilir veya bu fonksiyonu override edebilirsiniz.
 
 
-polimorfizm =bir nesnenin farklı sınıfların üyelerini (metodları, özellikleri) aynı şekilde kullanabilmesini sağlayan bir özelliktir. Bu, aynı metodu çağırmanın, farklı nesne türlerinde farklı davranışlara neden olabileceği anlamına gelir.  
+Kotlin'deki tüm sınıfların ortak bir üst sınıfı vardır; Anybu, hiçbir üst tür bildirilmemiş bir sınıf için varsayılan üst sınıftır:

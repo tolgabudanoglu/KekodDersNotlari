@@ -1,0 +1,12 @@
+Consctructor olamaz.
+Nesnesi oluşmaz.
+İçinde bulunan ffonksiyonları override etmek zorunlu. Body si olan bir fonksiyon yazarsak override zorunluluğu yok.
+Object expression ile interface arka planda normal bir sınıf gibi davranıyor. Nesnesi oluşmuş gibi.
+
+Final üye yazamayız.
+
+Abstract child  clasların fonksiyonları final yapabilirz. Ama interface de olmuyor
+
+Değişken tanımlanabilir ama backing fieldi yok state tutamayız.
+Abstract ve interface farkı = interface state tutamaz ( companion object ile tutabilirz ekstra söylebilrisin tavsiye edilmez.)
+

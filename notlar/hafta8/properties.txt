@@ -1,0 +1,2 @@
+Local değişkenlerde get set yazamayız. Backing field in kendisine erşiiyoruz.
+Sınıfkarın üye değişkenlerinde get set yazabiliriz.

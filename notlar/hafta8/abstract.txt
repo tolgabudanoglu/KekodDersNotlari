@@ -1,0 +1,25 @@
+Tek başına var olması anlamsız ise abstract değilse ve tek başına kullanılabiliniyorsa open class
+
+Nesnesi yaratılamaz
+
+Final yapılamaz.
+
+Constructor amacı başka bir sınıfı inject edebilir. 
+
+Abstract property default  değer alamazken open property default değer  alabilir.
+
+Abstract fonksiyon body si olamaz
+
+Abstract sınıflar başka abstract sınıfları miras alabilir override edilmesi gereken fonksiyonları ya da propertyleri override etme zorunluluğu kalkar.
+
+
+Miras alınan sınıfta override edilmiş ise child sınıfın miras etme zorunluluğu yok.
+
+
+Open sınıflar abstract property içeremez.
+
+Abstract üyeler sadece abstract sınıflarda.
+
+
+Abstract classlar özel detaylar içermez. override edilmek zorunda
+Open sınıflar ise detay bilgi içermek zorunda.override edilmek zorunda değil

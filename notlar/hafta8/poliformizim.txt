@@ -1,0 +1,2 @@
+Polimorfizm, aynı isme sahip ancak farklı sınıflar veya fonksiyonlar tarafından farklı şekillerde davranılan bir nesne veya işlemin özelliğidir
+Polimorfizm, programlamada kodun daha modüler, esnek ve yeniden kullanılabilir olmasını sağlar. 
