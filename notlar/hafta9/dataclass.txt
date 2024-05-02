@@ -1,0 +1,10 @@
+Primary constructorı olmalı ve bir tane parametre olmalı.
+Parametre var verya val ile yazılmalı. Generate edilen fonksiyonlar kullanabilsin diye
+Default değer alabilr.
+Second const olabilir.
+
+Member property tanımlanabilir.
+Visibility modifier kullanılabir.
+ open kuulanılmaz yani miras alınamaz. Default final
+
+Copy, hashcode ,equals ve toString generate edilir ve içleri sadece primary const variableri ile dolar.

@@ -23,3 +23,9 @@ Abstract üyeler sadece abstract sınıflarda.
 
 Abstract classlar özel detaylar içermez. override edilmek zorunda
 Open sınıflar ise detay bilgi içermek zorunda.override edilmek zorunda değil
+
+
+
+Eğer sınıfn nesnesine ihtiyacım olacaksa open olmaycaksa abstract ya da open
+Sınıfn içinde başka abstraeact member varsa abstract yoksa abstract ya da open
+Sınıfı miras alan child classlar ui olarak aynı ama içerik oalrak farklı ise abstract değilse open veya abstract
