@@ -72,7 +72,19 @@
 ### Ders 1 
 - Encapsulation [kodlar](KotlinLessons/src/main/kotlin/classes/Encapsulation.kt) [notlar](notlar/hafta7/Encapsulation.txt)
 - inheritance [kodlar](KotlinLessons/src/main/kotlin/classes/Inheritance.kt) [notlar](notlar/hafta7/inheritance.txt)
-- polimorfizm [kodlar](KotlinLessons/src/main/kotlin/classes/Polimorfizm.kt) 
+- polimorfizm [kodlar](KotlinLessons/src/main/kotlin/classes/Polimorfizm.kt)
+
+
+## Hafta 8
+### Ders 1
+- Abstract Class [kodlar](KotlinLessons/src/main/kotlin/classes/abstract) [notlar](notlar/hafta8/abstract.txt)
+- interface [kodlar](KotlinLessons/src/main/kotlin/classes/interfaces) [notlar](notlar/hafta8/interface.txt)
+
+
+## Hafta 9
+### Ders 1
+- data class [kodlar](KotlinLessons/src/main/kotlin/classes/dataclasses) [notlar](notlar/hafta9/dataclass.txt)
+
 
 
 
