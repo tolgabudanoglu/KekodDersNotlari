@@ -1,0 +1,19 @@
+Gruplanabilir veri türleri için kullanılır.
+Enum sabitleri arka planda static class gibi çalışır. Sabitler enum classı miras alır.
+
+
+Primary const tanımlanıyor.
+Secondry const tanımlanıyor.
+
+Başka classı miras alamaz.
+Nesnesi oluşturulamaz. Çünkü constu sadece private oluyor.
+İnterface implement ediliyor. Eğer implemetn edilen interface in bodysiz fun varsa ya enum classının içinde ya da enum sabitlerinin içinde ayrı ayrı override edilmeli.
+
+Sealed open abstract inner enum classlar yapılamaz. Default final
+
+Abstract fun izin veriyor ama tüm enum sahipleri override etmek zorunda.
+Open fun tanımlanabiliyor.(override opsiyonel) 
+
+Enum sabitleri const alabilir ama içine direkt oalrak property tanımlanamaz. Ancal enum calssı kendi constunda propertye sahipse tüm enum sabitleri de kendi constunda sahip olmak zorunda.
+
+Enum sabityleinin içine class fun izin verilmez. 
