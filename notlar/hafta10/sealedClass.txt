@@ -1,0 +1,29 @@
+Classları gruplamak için
+Kısıtlanmış class hiyerarsileri tutar. Ama ide nin kuraları ile
+
+
+Primary const tanımlanıyor.
+Secondry const tanımlanıyor.
+
+
+Düz bir classı miras alabilir.
+İnterface implemetn edebilir.
+
+
+Nesnesi üretilemez. Constu default olarak protected.
+
+Eğer constu private ise  sealed classı dışarıda bir  yerde başka bir classa miras veremeyiz
+Boş bir sealed classı herhangi bir classa miras verebiliriz.
+
+Final ya da open olamaz.
+
+
+Sealed classaların subclassaları constunda sealed classtan bağımsız property  tanımlanabiliyor.
+
+Subclassalr bağımsız olarak interface implement edebilir. 
+
+Subclasalrın birden fazla nesnesi oluşabilir.
+
+Sealed class aunı module ve package için gecerldir.
+
+Seaşed classların subclassları compile time da biliniyor.

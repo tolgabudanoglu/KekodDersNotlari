@@ -1,3 +1,4 @@
+Value leri gruplamak için
 Gruplanabilir veri türleri için kullanılır.
 Enum sabitleri arka planda static class gibi çalışır. Sabitler enum classı miras alır.
 
