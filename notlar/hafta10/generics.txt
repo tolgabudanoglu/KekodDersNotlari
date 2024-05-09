@@ -1,0 +1,19 @@
+Tipini bilmediğimiz herhangi bir degişkeni beklerken kullanırız.
+
+İnvariant durumu = paramtre olarak ne veriyorsak değişken de o olmalı. Üst sınıfı veya alt sınıfı olamaz.
+
+Genericler invarianttır değişmez. Üst classı olsa bile geçemez. Ne bekliyorsak onu vermeliyiz. 
+
+Neden any kullanmıyoru< = type safe yapabiliirz.
+
+out co - variance kullanımlar için (kendisi ve subtypeları (alt sınıf) geçerlı olsun istiyortsak
+
+in contra variance kullanım (kendisi ve superType(üst sınıf) geçerli)
+
+
+Star project
+Functions <*,String> ifadesi gunctions<in Nothing ,String> olur.  Parametre her şey olabi,lir geri dönüş tipi string
+
+Function<Int * > ifadesi Function <Int ,out ANY?>  parametre ınt dönüş tipi he rşey olabilir.
+
+ Function<*,* > ifadesi Function <in nothing,out any?> paramtre de dönüş tipi de he rşey olabilir.
