@@ -1,0 +1,22 @@
+Bir sınıfın nesnesine ihtiyacımız var ama bir tane olmasını istiyorsak memoryde tek nesne olur ve biz yönetitriz.
+
+Static olarak memory de saklıyoruz. 
+Anti pattern dir çünkü memory de garbage collector silemediği için ve gereksiz yere yapmak lifecycle problemlerine neden olur.
+
+
+Singleton patterni nasıl kullanırız ? 
+	- Sınıfn tüm constlarını private çek
+	- Sınıfın kendi instcesini oluştur
+	- İnstanca geri dönen statik fonk yaz
+	- Statik fonk içinde  instance null check yap 
+	- İnstance statik yap
+	
+	
+Thread safety nasıl sağlanır 
+Fonksiyonu synchronized ya da değişkeni volatile yap
+
+
+Kotlinde object keywordu ile singleton patterni kullanıyoruz. ( Object declarations kullanımı )
+
+
+
