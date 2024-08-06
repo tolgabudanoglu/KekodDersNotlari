@@ -1,0 +1,33 @@
+Android app ler 4 ana branştan oluşur
+1)activity
+2)brodcast receiver
+3)service
+4)content providers
+
+
+onCreate
+onStart
+onResume
+onPause
+onStop
+onDestroy
+onRestart
+
+setContentView fonksiyonu çalıştığında onContentChanged calışır.
+
+onCreate
+onStart
+onResume
+Uygulamayı aşağı aldığımızda 
+onPause
+onStop
+Tekrar ayağa kalkınca
+onRestart
+onStart
+onResume
+
+
+Bir activity konfigüsayon change (yatydan dikeye dikeyden yatya gelmesi) uğradığında ne olur nasıl çözersiniz?
+	- onDestroy ardından oncreate çalışır. Activity tekrardan başlar bu yüzden ui değişiklikleri kaybolur.
+	- Ui deki datalar büyük değilse onSaveInstanceState ve onRestoreInstanceState fonksiyonlarını kullanabiliirz. 
+Eğer karmaşık ve uzak sunucu verilerli ise viewModel kullanırız.
