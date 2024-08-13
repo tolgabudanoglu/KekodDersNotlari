@@ -1,0 +1,12 @@
+Kod bloğu var kullandımız her fragmentin onStartı yada creatinde yazıyorsak lifecycle-aware kullan.
+3 party sdk ler için
+Bağladığımız activity nin lifecyclein fonksiyonlarını takip eder. 
+
+
+LifecycleObserver miras aldığımızda onLifeCycleEvent annotions alınır. (deprecated)
+
+
+DefaultLifecycleObserver implement ediyoruz lifeccler fonk override edebiliyoruz.
+
+
+LifecycleEventObserver imolement ediyoruz. Onstatechanged fonksiyonu var.
