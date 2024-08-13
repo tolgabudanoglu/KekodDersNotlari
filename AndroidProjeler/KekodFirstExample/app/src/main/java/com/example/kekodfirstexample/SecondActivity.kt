@@ -4,20 +4,18 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.widget.Button
+import android.widget.ImageView
 
-class MainActivity : AppCompatActivity() {
+class SecondActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Log.i("MainActivity", "OnCreate")
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_second)
 
-        val button = findViewById<Button>(R.id.button)
-        button.setOnClickListener {
-            startActivity(Intent(this, SecondActivity::class.java))
+        val imageView = findViewById<ImageView>(R.id.imageView)
+        imageView.setOnClickListener {
+            startActivity(Intent(this, MainActivity::class.java))
         }
-        lifecycle.addObserver(CameraComponent())
-        lifecycle.addObserver(CameraComponent2()) // component artık lifecycle aware */
+
     }
 
     override fun onStart() {
@@ -43,8 +41,6 @@ class MainActivity : AppCompatActivity() {
     override fun onDestroy() {
         super.onDestroy()
         Log.i("MainActivity", "OnDestroy")
-        lifecycle.removeObserver(CameraComponent())
-        lifecycle.removeObserver(CameraComponent2()) // component artık lifecycle aware değil.
     }
 
     override fun onSaveInstanceState(outState: Bundle) {
@@ -70,7 +66,6 @@ class MainActivity : AppCompatActivity() {
     override fun onBackPressed() {
         super.onBackPressed()
         Log.i("MainActivity", "OnBackPressed")
-        finish()
     }
 
     override fun onUserLeaveHint() {
@@ -109,11 +104,4 @@ class MainActivity : AppCompatActivity() {
         super.onDetachedFromWindow()
         Log.i("MainActivity", "onDetachedFromWindow")
     }
-
-
 }
-
-// toml dosyası kıymetli. çünkü version artışlarını
-// devopsa bağlamak isteyebiliriz. her bir release buildi çıakrken kütüphane repolara baksın ve
-// günceli varsa otomatik update etsin ve testleri koşssun sorun yoksa otomatik güncellesin
-// toml'da bunu yapmak kolay oluyor.
