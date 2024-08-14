@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         val button = findViewById<Button>(R.id.button)
         button.setOnClickListener {
-            startActivity(Intent(this, SecondActivity::class.java))
+            startActivity(Intent(this, SettingsActivity::class.java))
         }
         lifecycle.addObserver(CameraComponent())
         lifecycle.addObserver(CameraComponent2()) // component artık lifecycle aware */
