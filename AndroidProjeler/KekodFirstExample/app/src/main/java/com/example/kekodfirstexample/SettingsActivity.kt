@@ -14,7 +14,7 @@ class SettingsActivity : AppCompatActivity() {
         setContentView(R.layout.activity_settings)
 
         //geriye gitme
-        val callback = object : OnBackPressedCallback(true) { 
+        val callback = object : OnBackPressedCallback(true) {
             override fun handleOnBackPressed() {
 
                 counter++

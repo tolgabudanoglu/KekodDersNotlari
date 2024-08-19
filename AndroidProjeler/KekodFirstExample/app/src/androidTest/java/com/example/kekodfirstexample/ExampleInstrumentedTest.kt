@@ -21,4 +21,8 @@ class ExampleInstrumentedTest {
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
         assertEquals("com.example.kekodfirstexample", appContext.packageName)
     }
+
+    fun textActivities(){
+
+    }
 }

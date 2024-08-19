@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         Log.i("MainActivity", "OnCreate")
         setContentView(R.layout.activity_main)
 
-        val button = findViewById<Button>(R.id.button)
+        val button = findViewById<Button>(R.id.buttonNext)
         button.setOnClickListener {
             startActivity(Intent(this, SettingsActivity::class.java))
         }
@@ -108,6 +108,11 @@ class MainActivity : AppCompatActivity() {
     override fun onDetachedFromWindow() {
         super.onDetachedFromWindow()
         Log.i("MainActivity", "onDetachedFromWindow")
+    }
+
+    fun someBusinesLogic(name:String,surname:String):String{
+        return "hello $name $surname"
+
     }
 
 
