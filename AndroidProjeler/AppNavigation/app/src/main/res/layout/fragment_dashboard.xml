@@ -9,7 +9,17 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="dashboard" />
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:text="dashboard fragment" />
+
+    <Button
+        android:id="@+id/btnOpenProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="open profile fragment"
+        android:layout_gravity="center" />
 
 </FrameLayout>
