@@ -28,6 +28,16 @@ class DashboardFragment : Fragment() {
         btnOpenProfile.setOnClickListener {
             findNavController().navigate(R.id.action_dashboardFragment_to_profileFragment)
         }
+
+        val btnOpenSettings = view.findViewById<Button>(R.id.btnOpenSettings) // fragmentte findViewbyId yok
+        btnOpenProfile.setOnClickListener {
+            findNavController().navigate(R.id.action_dashboardFragment_to_settingsDialogFragment)
+        }
+
+        val btnOpenSecondActivity = view.findViewById<Button>(R.id.btnOpenSecondActivity) // fragmentte findViewbyId yok
+        btnOpenProfile.setOnClickListener {
+            findNavController().navigate(R.id.action_dashboardFragment_to_secondActivity)
+        }
     }
 
 

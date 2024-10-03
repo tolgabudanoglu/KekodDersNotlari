@@ -12,10 +12,30 @@
         <action
             android:id="@+id/action_dashboardFragment_to_profileFragment"
             app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_settingsDialogFragment"
+            app:destination="@id/settingsDialogFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_secondActivity"
+            app:destination="@id/secondActivity" />
     </fragment>
     <fragment
         android:id="@+id/profileFragment"
         android:name="com.example.appnavigation.ProfileFragment"
         android:label="fragment_profile"
-        tools:layout="@layout/fragment_profile" />
+        tools:layout="@layout/fragment_profile">
+
+
+    </fragment>
+    <dialog
+        android:id="@+id/settingsDialogFragment"
+        android:name="com.example.appnavigation.SettingsDialogFragment"
+        android:label="fragment_settings_dialog"
+        tools:layout="@layout/fragment_settings_dialog" />
+    <activity
+        android:id="@+id/secondActivity"
+        android:name="com.example.appnavigation.SecondActivity"
+        android:label="activity_second"
+
+        tools:layout="@layout/activity_second" />
 </navigation>
