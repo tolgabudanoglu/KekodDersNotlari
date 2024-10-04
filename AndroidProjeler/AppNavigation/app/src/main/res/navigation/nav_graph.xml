@@ -25,6 +25,11 @@
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile">
 
+        <argument
+            android:name="userId"
+            app:argType="string"
+            android:defaultValue="Default value"
+            app:nullable="true" />
 
     </fragment>
     <dialog
