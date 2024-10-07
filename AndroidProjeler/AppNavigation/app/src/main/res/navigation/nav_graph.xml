@@ -32,14 +32,21 @@
             android:defaultValue="Default value"
             app:nullable="true" />
 
+        <deepLink app:uri="https://www.youtube.com/profile/{userId}" />
+
     </fragment>
     <dialog
         android:id="@+id/settingsDialogFragment"
         android:name="com.example.appnavigation.SettingsDialogFragment"
         android:label="fragment_settings_dialog"
         tools:layout="@layout/fragment_settings_dialog" />
+
     <navigation android:id="@+id/nav_graph_payment"
         app:graph="@navigation/nav_graph_payment"/>
+
+    <include
+        android:id="@+id/nav_graph_payment2"
+        app:graph="@navigation/nav_graph_payment" />
 
 
 </navigation>

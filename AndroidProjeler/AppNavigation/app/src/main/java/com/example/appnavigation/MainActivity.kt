@@ -3,6 +3,9 @@ package com.example.appnavigation
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.core.os.bundleOf
+import androidx.navigation.NavDeepLink
+import androidx.navigation.NavDeepLinkBuilder
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.fragment.findNavController
@@ -19,6 +22,15 @@ class MainActivity : AppCompatActivity() {
 
         //getNavControllerViaFragment3()
        // getNavControllerViaView3()//çalışmaz on create de
+
+        //explict deeplink
+        val pendingIntent = NavDeepLinkBuilder(this)
+            .setGraph(R.navigation.nav_graph)
+            .setDestination(R.id.profileFragment)
+            .setArguments(bundleOf())
+            .setComponentName(SecondActivity::class.java)
+            .createPendingIntent()
+
     }
 
     // birinci yol en az hatalı yöntem
@@ -26,6 +38,8 @@ class MainActivity : AppCompatActivity() {
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.navHostFragment) as NavHostFragment
         val navController = navHostFragment.navController
 
+        //deeplink ikinci yöntem
+        navController.createDeepLink()
 
     }
     //ikinci yol

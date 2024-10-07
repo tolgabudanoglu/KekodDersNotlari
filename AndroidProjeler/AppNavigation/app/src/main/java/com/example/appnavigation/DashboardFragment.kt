@@ -1,5 +1,6 @@
 package com.example.appnavigation
 
+import android.net.Uri
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -36,7 +37,8 @@ class DashboardFragment : Fragment() {
 
         val btnOpenSecondActivity = view.findViewById<Button>(R.id.btnOpenSecondActivity) // fragmentte findViewbyId yok
         btnOpenProfile.setOnClickListener {
-            findNavController().navigate(R.id.action_dashboardFragment_to_secondActivity)
+           val deepLinkUri = Uri.parse("https://www.youtube.com/profile/{123}")
+            findNavController().navigate(deepLinkUri)
         }
     }
 
