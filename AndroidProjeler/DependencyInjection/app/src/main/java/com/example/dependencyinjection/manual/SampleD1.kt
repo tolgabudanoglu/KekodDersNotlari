@@ -1,4 +1,4 @@
-package com.example.dependencyinjection
+package com.example.dependencyinjection.manual
 
 interface Engine {
     fun start()
@@ -20,7 +20,7 @@ class DieselEngine : Engine {
         println("Diesel engine started")
     }
 }
-class Car(private val engine:Engine) {
+class Car(private val engine: Engine) {
     fun start() {
         engine.start()
 
