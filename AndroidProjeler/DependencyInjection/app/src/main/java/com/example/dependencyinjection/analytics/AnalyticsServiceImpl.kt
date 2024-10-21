@@ -8,3 +8,11 @@ class AnalyticsServiceImpl @Inject constructor(): AnalyticsService  {
         Log.i("analitisc service", "analyticsMethods:")
     }
 }
+
+/* arka planda yaptığı
+fun main() {
+    val analyticsServiceImpl = AnalyticsServiceImpl()
+    val analyticsService = bindAnalyticsService(analyticsServiceImpl)
+    val analyticsAdapter = AnalyticsAdapter(analyticsService)
+}
+ */
