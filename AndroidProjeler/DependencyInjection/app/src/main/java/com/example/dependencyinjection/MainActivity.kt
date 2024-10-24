@@ -9,6 +9,7 @@ import androidx.core.view.WindowInsetsCompat
 import com.example.dependencyinjection.analytics.AnalyticsAdapter
 import com.example.dependencyinjection.analytics.AnalyticsService
 import dagger.hilt.android.AndroidEntryPoint
+import retrofit2.Retrofit
 import javax.inject.Inject
 
 @AndroidEntryPoint
@@ -16,11 +17,15 @@ class MainActivity : AppCompatActivity() {
 
     @Inject
     lateinit var analyticsAdapter: AnalyticsAdapter
+    @Inject
+    lateinit var retrofit: Retrofit
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         defaultActivityCode()
+
+
 
         /*manual dependency injection
         analyticsAdapter = AnalyticsAdapter(object : AnalyticsService {
