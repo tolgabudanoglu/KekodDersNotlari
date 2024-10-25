@@ -8,6 +8,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.dependencyinjection.analytics.AnalyticsAdapter
 import com.example.dependencyinjection.analytics.AnalyticsService
+import com.example.dependencyinjection.di.AuthInterceptorRetrofit
 import dagger.hilt.android.AndroidEntryPoint
 import retrofit2.Retrofit
 import javax.inject.Inject
@@ -17,6 +18,8 @@ class MainActivity : AppCompatActivity() {
 
     @Inject
     lateinit var analyticsAdapter: AnalyticsAdapter
+
+    @AuthInterceptorRetrofit
     @Inject
     lateinit var retrofit: Retrofit
 
