@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
+
+        <import type="android.view.View" />
         <variable
             name="helloMessage"
             type="String" />
@@ -33,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            visibility="@{isHelloMessageVisible ? View.VISIBLE : View .GONE}"
+            android:visibility="@{isHelloMessageVisible ? View.VISIBLE : View.GONE}"
             android:text="@{helloMessage}"
              />
 
